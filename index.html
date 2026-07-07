@@ -3,220 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Museu dos Nossos Momentos</title>
+    <meta name="theme-color" content="#fff4ee" />
+    <title>Feliz aniversário, Brenda</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="soft-light" aria-hidden="true"></div>
-
-    <section class="intro-screen" id="intro" aria-label="Entrada">
-      <div class="intro-panel">
-        <p class="intro-eyebrow">Museu dos Nossos Momentos</p>
-        <h1>Feliz aniversário ❤️</h1>
-        <p class="intro-copy">
-          Preparei um lugar onde guardei alguns dos nossos momentos.
-        </p>
-        <button class="primary-button" id="enterExperience" type="button">
-          Entrar
-        </button>
-      </div>
-    </section>
-
-    <header class="app-header" aria-label="Museu dos Nossos Momentos">
-      <a class="brand-mark" href="#galeria" aria-label="Voltar para a galeria">
-        Museu dos Nossos Momentos
-      </a>
-      <div class="header-spark" aria-hidden="true"></div>
+    <header class="site-header">
+      <a href="#inicio" aria-label="Voltar ao início">Brenda</a>
+      <button class="small-button" id="backToTop" type="button">Início</button>
     </header>
 
-    <main class="museum" id="museum" aria-hidden="true">
-      <section class="museum-section gallery-section" id="galeria" data-reveal="blur">
-        <div class="section-heading">
-          <p class="section-kicker">Sala 01</p>
-          <h2>Galeria Viva</h2>
-        </div>
-        <div class="gallery-shell">
-          <div class="living-gallery" id="livingGallery" aria-live="polite"></div>
-          <p class="empty-gallery" id="emptyGallery" hidden>
-            Coloque suas fotos na pasta img para preencher esta sala.
+    <main id="inicio">
+      <section class="hero section-reveal">
+        <p class="eyebrow">8 de julho</p>
+        <h1>Feliz aniversário, Brenda.</h1>
+        <p>
+          Fiz esse cantinho simples para te lembrar, com calma, o quanto você é
+          especial para mim.
+        </p>
+        <a class="primary-button" href="#mensagem">Ler com carinho</a>
+      </section>
+
+      <section class="section section-reveal" id="mensagem">
+        <p class="eyebrow">Para você</p>
+        <h2>Tem coisas em você que deixam a vida mais bonita.</h2>
+        <div class="soft-letter">
+          <p>
+            Brenda, hoje eu queria te entregar algo leve, sincero e feito só para
+            você. Não precisa ser exagerado para ser verdadeiro.
+          </p>
+          <p>
+            Eu gosto do seu jeito, da sua presença, da forma como você aparece no
+            meu dia e muda a sensação das coisas. Você tem uma beleza que não está
+            só nas fotos. Está no cuidado, na risada, na força e nas pequenas
+            manias que fazem você ser você.
+          </p>
+          <p>
+            Que seu novo ciclo venha com paz, saúde, amor, bons encontros e dias
+            que façam seu coração descansar.
           </p>
         </div>
       </section>
 
-      <section class="museum-section" id="favoritos" data-reveal="fade">
-        <div class="section-heading">
-          <p class="section-kicker">Sala 02</p>
-          <h2>Momentos Favoritos</h2>
-        </div>
-
-        <div class="favorites-grid">
-          <button class="favorite-card" type="button" data-photo-index="0">
-            <span class="favorite-photo" aria-hidden="true"></span>
-            <span class="favorite-card__content">
-              <span class="favorite-number">01</span>
-              <strong>O riso que ficou</strong>
-              <span>
-                Um daqueles instantes simples que viraram lembrança bonita sem
-                pedir licença.
-              </span>
-            </span>
-          </button>
-
-          <button class="favorite-card" type="button" data-photo-index="3">
-            <span class="favorite-photo" aria-hidden="true"></span>
-            <span class="favorite-card__content">
-              <span class="favorite-number">02</span>
-              <strong>Nosso jeito de caber no mundo</strong>
-              <span>
-                Quando tudo parece mais leve só porque estamos vivendo do nosso
-                jeito.
-              </span>
-            </span>
-          </button>
-
-          <button class="favorite-card" type="button" data-photo-index="6">
-            <span class="favorite-photo" aria-hidden="true"></span>
-            <span class="favorite-card__content">
-              <span class="favorite-number">03</span>
-              <strong>A calma que você traz</strong>
-              <span>
-                Tem dias em que a sua presença muda a temperatura inteira da
-                vida.
-              </span>
-            </span>
-          </button>
-
-          <button class="favorite-card" type="button" data-photo-index="9">
-            <span class="favorite-photo" aria-hidden="true"></span>
-            <span class="favorite-card__content">
-              <span class="favorite-number">04</span>
-              <strong>O lugar que é só nosso</strong>
-              <span>
-                Um pedaço de tempo guardado com carinho, como se ainda estivesse
-                acontecendo.
-              </span>
-            </span>
-          </button>
+      <section class="section section-reveal">
+        <p class="eyebrow">O que eu admiro</p>
+        <h2>Algumas partes suas que eu guardo com carinho.</h2>
+        <div class="qualities">
+          <article>
+            <span>01</span>
+            <h3>Seu jeito</h3>
+            <p>Você tem uma forma só sua de estar presente, de falar, de rir e de fazer falta.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Sua força</h3>
+            <p>Mesmo quando o dia pesa, existe em você uma coragem bonita, silenciosa e verdadeira.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Seu cuidado</h3>
+            <p>Você transforma detalhes pequenos em lembranças grandes.</p>
+          </article>
         </div>
       </section>
 
-      <section class="museum-section capsule-section" id="capsula" data-reveal="scale">
-        <div class="section-heading">
-          <p class="section-kicker">Sala 03</p>
-          <h2>Cápsula do Tempo</h2>
-        </div>
+      <section class="section photos-section section-reveal">
+        <p class="eyebrow">Nossas fotos</p>
+        <h2>Alguns registros que eu gosto de olhar.</h2>
+        <div class="photo-strip" id="photoStrip" aria-label="Fotos da Brenda"></div>
+      </section>
 
-        <div class="capsule-scene" id="capsuleScene">
-          <button
-            class="time-capsule"
-            id="timeCapsule"
-            type="button"
-            aria-expanded="false"
-            aria-controls="letterPanel"
-          >
-            <span class="capsule-glow" aria-hidden="true"></span>
-            <span class="capsule-lid" aria-hidden="true"></span>
-            <span class="capsule-seal" aria-hidden="true">♥</span>
-            <span class="capsule-label">Abrir cápsula</span>
-          </button>
-
-          <div class="letter-panel" id="letterPanel" aria-hidden="true">
-            <article class="letter-paper">
-              <p class="letter-date">Hoje</p>
-              <!-- Edite o texto da carta abaixo. -->
-              <div class="letter-copy">
-                <p>
-                  Que este aniversário seja um lembrete delicado do quanto você
-                  é amada, admirada e celebrada.
-                </p>
-                <p>
-                  Eu guardei pequenos pedaços da nossa história aqui porque, de
-                  algum jeito, cada lembrança me devolve ao que há de mais bonito
-                  em nós.
-                </p>
-                <p>
-                  Obrigado por existir com esse jeito tão seu de transformar dias
-                  comuns em lugares onde eu quero ficar.
-                </p>
-              </div>
-            </article>
-          </div>
+      <section class="section section-reveal">
+        <p class="eyebrow">Seu novo ciclo</p>
+        <h2>Meu desejo para você.</h2>
+        <div class="wish-list">
+          <p>Que você se sinta amada nos dias fáceis e acolhida nos dias difíceis.</p>
+          <p>Que seus sonhos encontrem espaço, tempo e coragem.</p>
+          <p>Que a vida te devolva em dobro toda a beleza que você entrega.</p>
         </div>
       </section>
 
-      <section class="museum-section love-section" id="amor" data-reveal="blur">
-        <div class="section-heading">
-          <p class="section-kicker">Sala 04</p>
-          <h2>Coisas que eu amo em você</h2>
-        </div>
-
-        <div class="typing-frame" aria-live="polite">
-          <p class="typing-text" id="typingText"></p>
-          <span class="typing-caret" aria-hidden="true"></span>
-        </div>
-
-        <ul id="lovePhrases" hidden>
-          <li>O jeito como você ilumina os lugares por onde passa.</li>
-          <li>A sua risada, que deixa tudo mais fácil de lembrar.</li>
-          <li>A sua coragem até nos dias em que ninguém percebe.</li>
-          <li>A delicadeza que existe no seu cuidado.</li>
-          <li>A forma como você faz o amor parecer casa.</li>
-        </ul>
-      </section>
-
-      <section class="museum-section sky-section" id="ceu" data-reveal="fade">
-        <div class="section-heading">
-          <p class="section-kicker">Sala 05</p>
-          <h2>Céu das lembranças</h2>
-        </div>
-
-        <div class="memory-sky" id="memorySky">
-          <div class="memory-pop" id="memoryPop" role="status" aria-live="polite"></div>
-        </div>
-
-        <ul id="skyMemories" hidden>
-          <li>Aquele sorriso que apareceu sem pose e ficou perfeito.</li>
-          <li>O dia em que a conversa durou mais do que o planejado.</li>
-          <li>Uma música que parece tocar diferente quando lembra você.</li>
-          <li>O abraço que fez o mundo diminuir por alguns segundos.</li>
-          <li>Um olhar que disse mais do que qualquer frase.</li>
-          <li>A paz de dividir silêncio sem precisar explicar nada.</li>
-          <li>Uma foto que guarda mais sentimento do que pixels.</li>
-          <li>O cuidado escondido nos detalhes pequenos.</li>
-          <li>Uma saudade boa de um momento que ainda mora aqui.</li>
-          <li>O instante em que eu pensei: isso é raro.</li>
-        </ul>
-      </section>
-
-      <section class="museum-section final-section" id="final" data-reveal="scale">
-        <p class="final-kicker">Fim da visita</p>
-        <h2>Obrigado por fazer parte da minha vida.</h2>
-        <button class="primary-button" id="restartStory" type="button">
-          Recomeçar nossa história
-        </button>
+      <section class="final section-reveal">
+        <p class="eyebrow">Com amor</p>
+        <h2>Obrigado por ser você.</h2>
+        <p>
+          Eu sou feliz por ter você na minha vida. Que hoje seja doce, leve e do
+          seu jeito.
+        </p>
+        <button class="primary-button" id="restart" type="button">Voltar ao começo</button>
       </section>
     </main>
-
-    <div class="moment-modal" id="momentModal" aria-hidden="true">
-      <div class="moment-modal__backdrop" data-close-modal></div>
-      <article
-        class="moment-modal__panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="modalTitle"
-        tabindex="-1"
-      >
-        <button class="modal-close" type="button" aria-label="Fechar" data-close-modal>
-          ×
-        </button>
-        <figure class="modal-photo" id="modalPhotoWrap">
-          <img id="modalPhoto" alt="" />
-        </figure>
-        <p class="modal-number" id="modalNumber"></p>
-        <h3 id="modalTitle"></h3>
-        <p id="modalText"></p>
-      </article>
-    </div>
 
     <script src="script.js"></script>
   </body>
